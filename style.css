@@ -1,0 +1,585 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        @font-face {
+            font-family: JosefinSans-Light;
+            src: url(assests/fonts/josefin-sans-new/JosefinSans-Light.ttf);
+        }
+        
+        @font-face {
+            font-family: JosefinSans-Thin;
+            src: url(assests/fonts/josefin-sans-new/JosefinSans-Thin.ttf);
+        }
+        
+        @font-face {
+            font-family: JosefinSans-SemiBold;
+            src: url(assests/fonts/josefin-sans-new/JosefinSans-SemiBold.ttf);
+        }
+        
+        @font-face {
+            font-family: JosefinSans-Regular;
+            src: url(assests/fonts/josefin-sans-new/JosefinSans-Regular.ttf);
+        }
+        
+        @font-face {
+            font-family: Philosopher-Bold;
+            src: url(assests/fonts/philosopher-new/Philosopher-Bold.ttf);
+        }
+        
+        @font-face {
+            font-family: Philosopher-Italic;
+            src: url(assests/fonts/philosopher-new/Philosopher-Italic.ttf);
+        }
+        
+        @font-face {
+            font-family: Philosopher-Regular;
+            src: url(assests/fonts/philosopher-new/Philosopher-Regular.ttf);
+        }
+        
+        @font-face {
+            font-family: Dosis-Medium;
+            src: url(assests/fonts/Dosis/Dosis-Medium.ttf);
+        }
+        
+        @font-face {
+            font-family: Dosis-Light;
+            src: url(assests/fonts/Dosis/Dosis-Light.ttf);
+        }
+        
+        @font-face {
+            font-family: GildaDisplay-Regular;
+            src: url(assests/fonts/gilda-display/GildaDisplay-Regular.ttf);
+        }
+        
+        .banner {
+            width: 100%;
+            background-image: url(assests/img/saltnpepper-village-home.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: auto;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 33px;
+        }
+        
+        .logo {
+            width: 10%;
+            margin-top: 5px;
+        }
+        
+        .order_button a {
+            width: 20%;
+            margin-right: 5px;
+            margin-top: -5px;
+        }
+        
+        .navbar ul {
+            display: flex;
+            text-align: center;
+        }
+        
+        .navbar ul li {
+            list-style-type: none;
+            margin: 0px 120px 0px 5px;
+            padding: 10px;
+            line-height: 80px;
+        }
+        
+        .navbar ul li a {
+            font-family: Philosopher-Regular;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .navbar ul li a:hover {
+            color: #ED1C24;
+            transition: .4s;
+        }
+        
+        .order_button {
+            text-align: right;
+            margin-top: -7px;
+        }
+        
+        .order_button a {
+            font-family: Philosopher-Regular;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            color: #fff;
+            background-color: #ED1C24;
+            border: 5px solid #dd1a20;
+            padding: 8px 50px;
+            text-decoration: none;
+        }
+        
+        .order_button>a:hover {
+            transition: .3s;
+            border: 8px solid #e4e4e4;
+        }
+        
+        .headig {
+            width: 60%;
+            margin: 150px auto 80px auto;
+        }
+        
+        .banner_text h1 {
+            color: #fff;
+            font-family: "Josefin Sans" Sans-serif;
+            font-size: 80px;
+            font-weight: 80;
+            text-transform: uppercase;
+            letter-spacing: 15px;
+            font-family: "JosefinSans-Light ";
+            margin-bottom: 20px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .salting {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .salting img {
+            width: 30%;
+        }
+        
+        .text_title h4 {
+            color: #fff;
+            text-align: center;
+            font-family: "JosefinSans-Light ";
+            margin: 0 auto;
+        }
+        
+        .brand_text {
+            text-align: center;
+        }
+        
+        .brand_text h2 {
+            color: #fff;
+            font-family: Philosopher-Regular;
+            font-weight: 200;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+        
+        .brand_text p {
+            color: #fff;
+            font-family: Philosopher-Italic;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        
+        .boxes {
+            display: flex;
+            justify-content: center;
+            padding: 30px 30px 200px 30px;
+        }
+        
+        .boxes .box {
+            padding: 50px 15px 50px 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 4px;
+            height: 10%;
+            margin: 20px;
+            border: 5px solid brown;
+        }
+        
+        .boxes .box img {
+            padding: 20px;
+            width: 250px;
+            margin: 25px;
+        }
+        
+        .box:hover {
+            transition: 0.3s;
+            border: 8px solid #cebcbc;
+        }
+        
+        .location {
+            padding: 50px;
+            background-color: #222222;
+            border-top: 2px solid #ed1c24;
+        }
+        
+        .city_img {
+            text-align: center;
+        }
+        
+        .city_img img {
+            width: 40%;
+            height: 200px;
+        }
+        
+        .loc_logo {
+            text-align: center;
+        }
+        
+        .loc_logo>img {
+            margin-top: 10%;
+        }
+        
+        .loc_logo h2 {
+            color: #ED1C24;
+            font-size: 80px;
+        }
+        
+        .loc_logo p {
+            color: #fff;
+            font-family: JosefinSans-SemiBold;
+            font-size: 30px;
+        }
+        
+        .loc_pic {
+            display: flex;
+            justify-content: center;
+            padding: 30px 30px 200px 30px;
+        }
+        
+        .loc_pic .city {
+            padding: 10px;
+            box-shadow: 4px;
+            height: 10%;
+            margin: 10px;
+            /* border: 5px solid #fff; */
+            /* padding: 50px 15px 50px 15px; */
+        }
+        
+        .loc_pic .city>img {
+            border-radius: 15px;
+            width: 350px;
+            margin: 20px;
+            border: 5px solid #fff;
+            text-align: center;
+        }
+        
+        .city>h2,
+        p,
+        a {
+            color: #fff;
+        }
+        
+        .loc-2 {
+            padding: 50px;
+            background-color: #222222;
+            border-top: 2px solid #ecd8d9;
+        }
+        
+        .loc-text {
+            text-align: center;
+        }
+        
+        .loc-text p {
+            color: #dd1a20;
+            font-family: Philosopher-Regular;
+            font-size: 50px;
+        }
+        
+        .line {
+            text-align: center;
+            margin: 2% 40%;
+            width: 200px;
+            height: 2px;
+            background-color: #fff;
+            font-weight: bolder;
+        }
+        
+        .loc2-box {
+            text-align: center;
+        }
+        
+        .loc2-box>img {
+            padding: 1px;
+            margin: 35px;
+            width: 330px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+        }
+        
+        .loc-3 {
+            padding: 50px;
+            background-color: #222222;
+            border-top: 2px solid #ecd8d9;
+            text-align: center;
+        }
+        
+        .loc3-text>p {
+            color: #dd1a20;
+            font-family: Philosopher-Regular;
+            font-size: 50px;
+        }
+        
+        .loc3text1 {
+            /* color: #e4e4e4;
+     font-size: 30px;
+     font-family:  Dosis-Light; */
+            font-family: dosis;
+            font-size: 25px;
+            padding: 5px 0 10px 0;
+            color: #ffffff;
+            font-weight: normal;
+            letter-spacing: 1px;
+            letter-spacing: 5px;
+        }
+        
+        .line2 {
+            text-align: center;
+            margin: 2% 40%;
+            width: 250px;
+            height: 2px;
+            background-color: #fff;
+            font-weight: bolder;
+        }
+        
+        .loc4-text {
+            justify-content: center;
+            display: flex;
+        }
+        
+        .loc4-box1 {
+            background-color: #fff;
+            border: 2px solid #dd1a20;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .loc4-box2 {
+            background-color: #fff;
+            border: 2px solid #dd1a20;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .loc4-box3 {
+            background-color: #fff;
+            border: 2px solid #dd1a20;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .loc5-box {
+            justify-content: center;
+            display: flex;
+        }
+        
+        .loc5-box1 {
+            background-color: #fff;
+            border: 2px solid #dd1a20;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .loc5-box2 {
+            background-color: #fff;
+            border: 2px solid #dd1a20;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .loc5 {
+            padding: 50px;
+            background-color: #222222;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .loc5-box1 {
+            background-color: #fff;
+            width: 450px;
+            height: 150px;
+            border: 2px solid #ed1c24;
+            border-radius: 5px;
+            margin-top: -90px;
+        }
+        
+        .loc5-box2 {
+            background-color: #fff;
+            width: 450px;
+            height: 150px;
+            border: 2px solid #ed1c24;
+            border-radius: 5px;
+            margin-top: -90px;
+        }
+        
+        .loc6 {
+            padding: 50px;
+            background-color: #222222;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .loc6-text>p {
+            color: #ee1b22;
+            font-family: Philosopher-Regular;
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        .loc6_line {
+            /* width: 250px;
+            height: 2px;
+            color: #fff;
+            font-weight: bolder;
+            background-color: #222222; */
+        }
+        
+        .loc7 {
+            padding: 50px;
+            background-color: #222222;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .loc7-box {
+            background-color: #fff;
+            width: 450px;
+            height: 150px;
+            border: 2px solid #ed1c24;
+            border-radius: 5px;
+            margin-top: -90px;
+        }
+        
+        .footer {
+            background-color: #222222;
+            border-top: 2px solid #ED1C24;
+            font-family: Dosis-Medium;
+            display: flex;
+            color: #e4e4e4;
+            
+        }
+        
+        .footer_logo {
+            margin: 50px 10px 0px 30px;
+        }
+        
+        .description p {
+            width: 300px;
+            height: 400px;
+            margin: 50px 30px 0px 30px;
+            margin-top: -1px;
+            text-align: justify;
+        }
+        
+        .footer-link h4 {
+            font-size: 21px;
+            font-weight: 600;
+            font-family: Philosopher-Regular;
+        }
+        .footer-link {
+        
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            
+        }
+        .footer-ul {
+            margin-left: 40px;
+            
+        }
+        
+        .footer-ul> ul> h4 {
+            /* margin-bottom:  20px; */
+        }
+        .footer-ul ul li {
+            margin-left: 10px;
+        }
+        .links-line {
+
+            width: 90px;
+            height: 2px;
+            color: #dd1a20;
+            background-color: #f02d2d;
+            margin-top: 5px;
+        }
+        .contact-us ul h4{
+            font-size: 21px;
+            font-weight: 600;
+            font-family: Philosopher-Regular;
+        }
+        .contact {
+            margin-left: 10px;
+            padding: 20px;
+            text-align: center;
+            display: inline;
+            text-decoration: none;
+            text-align:justify;
+            
+        }
+        .contact-line{
+            width: 90px;
+            height: 2px;
+            color: #dd1a20;
+            background-color: #f02d2d;
+           
+        }
+        .contact-us ul  h4 {
+            margin: 10px 10px 10px 10px;
+        }
+        .contact {
+            margin-top: -20px;
+        }
+        .follow-us img {
+            width: 50px;
+        }
+        .follow-us h4 {
+            font-size: 21px;
+            font-weight: 600;
+            font-family: Philosopher-Regular;
+           
+        }
+        .follow-line {
+            width: 90px;
+            height: 2px;
+            color: #dd1a20;
+            background-color: #f02d2d;
+            margin-top: 10px;
+        }
+        .follow-us img {
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .app-logo img {
+            width: 150px;
+            
+        }
+        .footer-last {
+           
+            width: 100%;
+            height: 1px;
+            color: #cebcbc;
+            background-color: #222222;
+
+        }
+       hr {
+        background-color: #222222;
+        border-top: 2px solid #ee0d0d;
+        font-family: Dosis-Medium;
+        display: flex;
+        color: #e4e4e4;
+       }
